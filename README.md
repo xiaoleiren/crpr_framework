@@ -272,7 +272,7 @@ Run a single experiment batch with:
 
 ```
 python main.py --env Narrow --n_agents 20 --seeds 5 --instances 1 --config config.yaml --output results
-
+```
 
 Arguments:
 
@@ -301,6 +301,6 @@ instance-level summary CSV
 condition-level summary CSV
 
 manifest JSON
-```
+
 
 
