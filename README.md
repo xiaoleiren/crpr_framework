@@ -264,6 +264,31 @@ run scripts/make_tables.py to build summary tables
 
 export the resulting CSV / Markdown tables into reports or papers
 
+### Result files produced by `main.py`
+
+A typical run such as:
+
+```
+python main.py --env Narrow --n_agents 2 --seeds 5 --instances 1 --output results
+```
+produces files like:
+
+Narrow_N2_raw_runs.csv: raw run-level outputs from CRPR.run()
+
+Narrow_N2_legacy_runs.csv: backward-compatible single-table summary input
+
+Narrow_N2_legacy_summary.json: backward-compatible aggregate summary
+
+Narrow_N2_runs.csv: normalized run-level table with capped runtimes
+
+Narrow_N2_instance_summary.csv: aggregation over seeds for each instance
+
+Narrow_N2_condition_summary.csv: aggregation over instances for each condition
+
+Narrow_N2_experiment_summary.json: experiment-level summary metadata
+
+Narrow_N2_manifest.json: run manifest with configuration and output paths
+
 ## Using `config.yaml` and `main.py`
 
 The file `config.yaml` stores the default solver hyperparameters used to build `CRPRConfig`.
