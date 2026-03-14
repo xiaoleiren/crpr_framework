@@ -1,0 +1,2 @@
+method,env_name,n_agents,instance_id,n_runs,n_success,success_rate,mean_t_res_ms_capped,std_t_res_ms_capped,mean_t_e2e_ms_capped,std_t_e2e_ms_capped,timeout_ms,mean_soc_ratio_success,std_soc_ratio_success,mean_makespan_success,std_makespan_success,mean_phi_success,std_phi_success
+CR-PR,Narrow,2,0,1,1,1.0,1653.1957709999006,0.0,1824.890369999821,0.0,5000.0,1.0,0.0,12.09,0.0,0.0,0.0

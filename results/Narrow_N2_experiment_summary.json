@@ -1,0 +1,17 @@
+{
+  "timeout_ms": 5000.0,
+  "n_runs": 1,
+  "n_instance_groups": 1,
+  "n_condition_groups": 1,
+  "instance_group_cols": [
+    "method",
+    "env_name",
+    "n_agents",
+    "instance_id"
+  ],
+  "condition_group_cols": [
+    "method",
+    "env_name",
+    "n_agents"
+  ]
+}

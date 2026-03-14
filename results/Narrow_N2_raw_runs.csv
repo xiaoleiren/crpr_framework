@@ -1,0 +1,2 @@
+method,env_name,instance_id,success,t_init_ms,t_res_ms,t_e2e_ms,phi,soc,soc_ratio,makespan,n_agents,seed,accepted_candidates,candidate_count,mean_repair_passes,outer_iterations
+CR-PR,Narrow,0,True,171.69459899992034,1653.1957709999006,1824.890369999821,0.0,18.330351468215927,1.0,12.09,2,0,0,0,0.0,0

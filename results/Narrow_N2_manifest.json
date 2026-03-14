@@ -1,0 +1,15 @@
+{
+  "config_path": "config.yaml",
+  "env": "Narrow",
+  "n_agents": 2,
+  "instances": 1,
+  "seeds_per_instance": 1,
+  "timeout_ms": 5000.0,
+  "raw_runs_csv": "Narrow_N2_raw_runs.csv",
+  "legacy_runs_csv": "Narrow_N2_legacy_runs.csv",
+  "legacy_summary_json": "Narrow_N2_legacy_summary.json",
+  "prepared_runs_csv": "Narrow_N2_runs.csv",
+  "instance_summary_csv": "Narrow_N2_instance_summary.csv",
+  "condition_summary_csv": "Narrow_N2_condition_summary.csv",
+  "experiment_summary_json": "Narrow_N2_experiment_summary.json"
+}
